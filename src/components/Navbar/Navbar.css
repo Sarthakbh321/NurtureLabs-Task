@@ -1,0 +1,33 @@
+.nav-toolbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-circle {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: green;
+	border: 3px white solid;
+}
+
+.nav-brand-div {
+	display: flex;
+	align-items: center;
+}
+
+.nav-brand {
+	font-size: 1.2rem;
+	margin-left: 10px;
+}
+
+.nav-link {
+	margin: 0 20px;
+	text-decoration: none;
+	font-weight: 500;
+	color: black;
+}
+
+.nav-active {
+	color: #f18354 !important;
+}
