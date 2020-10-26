@@ -1,12 +1,12 @@
-import { AppBar, IconButton, Toolbar } from "@material-ui/core";
+import { AppBar, Avatar, IconButton, Toolbar } from "@material-ui/core";
 import React from "react";
 import "./Navbar.css";
-import { NotificationsNone } from "@material-ui/icons";
+import { ExpandMore, NotificationsNone, SmsOutlined } from "@material-ui/icons";
 
 function Navbar() {
 	return (
 		<div className="navbar">
-			<AppBar position="static" color="primary" elevation={2}>
+			<AppBar position="static" color="primary" elevation={1}>
 				<Toolbar className="nav-toolbar">
 					<div className="nav-brand-div">
 						<div className="nav-circle"></div>
@@ -27,6 +27,18 @@ function Navbar() {
 						<IconButton>
 							<NotificationsNone color="secondary" />
 						</IconButton>
+						<IconButton>
+							<SmsOutlined color="secondary" />
+						</IconButton>
+						<div className="nav-profile-div">
+							<Avatar
+								alt="Test"
+								style={{ width: 30, height: 30 }}
+							/>
+							<IconButton style={{ padding: 0 }}>
+								<ExpandMore color="secondary" />
+							</IconButton>
+						</div>
 					</div>
 				</Toolbar>
 			</AppBar>
