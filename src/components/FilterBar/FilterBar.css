@@ -11,5 +11,10 @@
 }
 
 .m5-bottom {
-	margin-bottom: 15%;
+	margin-bottom: 12%;
+}
+
+.checkbox-row {
+	display: flex;
+	align-items: center;
 }
