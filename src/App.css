@@ -1,0 +1,24 @@
+.main {
+	margin: 2% 2%;
+}
+
+.light-gray {
+	color: #9ca4b3;
+}
+
+.lime-green {
+	color: limegreen;
+}
+
+input[type=text] {
+	background-color: #f8f9fc;
+	width: 95% !important;
+	border: 2px solid #e7e9ef;
+	height: 35px;
+	border-radius: 4px;
+}
+
+input[type=text]:focus {
+	outline: none;
+	border: 2px solid limegreen;
+}
