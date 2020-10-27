@@ -11,14 +11,14 @@
 }
 
 input[type=text] {
-	background-color: #f8f9fc;
-	width: 95% !important;
-	border: 2px solid #e7e9ef;
-	height: 35px;
-	border-radius: 4px;
+	height: 30px;
+	padding: 5px 10px;
 }
 
-input[type=text]:focus {
-	outline: none;
-	border: 2px solid limegreen;
+.MuiInputBase-root {
+	background-color: #f8f9fc !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+	border-color: #e7e9ef !important;
 }

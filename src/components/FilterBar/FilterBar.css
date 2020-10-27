@@ -5,3 +5,11 @@
 	border: 2px solid #e7e9ef;
 	padding: 0 15px;
 }
+
+.inp-icon {
+	color: limegreen !important;
+}
+
+.m5-bottom {
+	margin-bottom: 15%;
+}
