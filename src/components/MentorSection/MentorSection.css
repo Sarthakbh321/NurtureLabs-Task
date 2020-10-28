@@ -1,0 +1,12 @@
+.mentor-section {
+	margin-right: 3%;
+}
+
+.top-bar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.MuiSelect-root {
+	background-color: white !important;
+}
