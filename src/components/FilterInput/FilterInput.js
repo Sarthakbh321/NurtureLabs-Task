@@ -1,4 +1,4 @@
-import { Chip, TextField } from "@material-ui/core";
+import { Chip, IconButton, TextField } from "@material-ui/core";
 import { Close, Search } from "@material-ui/icons";
 import React, { useState } from "react";
 
@@ -11,12 +11,16 @@ function FilterInput({ data, setData }) {
 		setData(newArray);
 	};
 
+	const addItem = () => {
+		let newArray = data;
+		newArray.push(curr);
+		setCurr("");
+		setData(newArray);
+	};
+
 	const handleEnter = (e) => {
 		if (e.key === "Enter") {
-			let newArray = data;
-			newArray.push(curr);
-			setCurr("");
-			setData(newArray);
+			addItem();
 		}
 	};
 
@@ -27,7 +31,12 @@ function FilterInput({ data, setData }) {
 				fullWidth
 				InputProps={{
 					endAdornment: (
-						<Search className="inp-icon" fontSize="large" />
+						<IconButton
+							onClick={addItem}
+							style={{ padding: 0, margin: 0 }}
+						>
+							<Search className="inp-icon" fontSize="large" />
+						</IconButton>
 					),
 				}}
 				style={{ marginBottom: "5%" }}

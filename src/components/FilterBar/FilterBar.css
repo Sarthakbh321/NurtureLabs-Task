@@ -1,4 +1,4 @@
-.filter-div {
+.section-div {
 	background-color: white;
 	width: 100%;
 	min-height: 70vh;
@@ -14,7 +14,20 @@
 	margin-bottom: 12%;
 }
 
+.m5-left {
+	margin-left: 5%;
+}
+
 .checkbox-row {
 	display: flex;
 	align-items: center;
+}
+
+.more-link {
+	font-weight: 700;
+	margin-left: 10%;
+}
+
+.more-link:hover {
+	cursor: pointer;
 }
