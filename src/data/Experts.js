@@ -1,0 +1,47 @@
+export const experts = [
+	{
+		id: 1,
+		profile_img: ".",
+		name: "David Melvik",
+		designation: "Founder @ The Millennials & CEO @ABC",
+		price: "FREE",
+		rating: 4.9,
+		reviews: 120,
+		freeSessions: 2,
+		location: "Tampa. FL, USA",
+		languages: "Greek, English, French",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum unde, error hic, voluptatibus similique ex expedita odio sequi libero laboriosam ratione aliquam, sunt neque autem ipsam reprehenderit modi pariatur perspiciatis!",
+		keywords: ["Marketing", "SEO", "Content Marketing"],
+	},
+	{
+		id: 2,
+		profile_img: ".",
+		name: "David Melvik",
+		designation: "Founder @ The Millennials & CEO @ABC",
+		price: "$200",
+		rating: 4.4,
+		reviews: 1120,
+		freeSessions: 2,
+		location: "Tampa. FL, USA",
+		languages: "Greek, English, French",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum unde, error hic, voluptatibus similique ex expedita odio sequi libero laboriosam ratione aliquam, sunt neque autem ipsam reprehenderit modi pariatur perspiciatis!",
+		keywords: ["SEO", "Content Marketing", "Web Development", "React"],
+	},
+	{
+		id: 3,
+		profile_img: ".",
+		name: "David Melvik",
+		designation: "Founder @ The Millennials & CEO @ABC",
+		price: "$400",
+		rating: 4,
+		reviews: 220,
+		freeSessions: 2,
+		location: "Tampa. FL, USA",
+		languages: "Greek, English, French",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum unde, error hic, voluptatibus similique ex expedita odio sequi libero laboriosam ratione aliquam, sunt neque autem ipsam reprehenderit modi pariatur perspiciatis!",
+		keywords: ["Full Stack Development", "App Development", "ML/AI"],
+	},
+];

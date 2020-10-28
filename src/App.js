@@ -10,10 +10,10 @@ function App() {
 			<Navbar />
 			<div className="main">
 				<Grid container spacing={0}>
-					<Grid item xs={12} sm={4}>
+					<Grid item xs={12} sm={3}>
 						<FilterBar />
 					</Grid>
-					<Grid item xs={12} sm={8}>
+					<Grid item xs={12} sm={9}>
 						<MentorSection />
 					</Grid>
 				</Grid>

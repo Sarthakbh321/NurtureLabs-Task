@@ -5,8 +5,16 @@
 .top-bar {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .MuiSelect-root {
 	background-color: white !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	width: 120px !important;
+}
+
+.top-bar .MuiOutlinedInput-root {
+	height: 40px !important;
 }

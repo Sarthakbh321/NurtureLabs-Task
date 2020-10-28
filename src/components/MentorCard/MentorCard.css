@@ -1,0 +1,76 @@
+.mentor-card {
+	min-height: 0 !important;
+	padding: 0;
+	width: 100% !important;
+	height: 300px !important;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.mentor-top {
+	padding: 5px 10px;
+	padding-left: 20px !important;
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid #f2f4f7;
+}
+
+.mentor-info {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5%;
+}
+
+.mentor-info h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mentor-info h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.mentor-profile-pic {
+	width: 100px !important;
+	height: 100px !important;
+	position: relative !important;
+	top: 40px !important;
+}
+
+.mentor-description {
+	/* min-height: 200px; */
+	height: calc(300px - 112px) !important;
+}
+
+.mentor-price-rev {
+	font-size: 0.8rem !important;
+	display: flex !important;
+	flex-direction: column !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.loc-lang-div {
+	padding: 10px 3%;
+	font-size: 0.9rem;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 10%;
+}
+
+.description-div {
+	padding: 20px 3%;
+	font-size: 0.85rem;
+}
+
+.keywords-div {
+	padding: 5px 1%;
+}
+
+.keyword-chip {
+	margin: 0 10px;
+	background-color: #edf2f7 !important;
+	color: #7e91a6 !important;
+}

@@ -141,7 +141,7 @@ function FilterBar() {
 						className="lime-green more-link"
 						onClick={() => setShowMore(!showMore)}
 					>
-						More
+						{showMore ? "Less" : "More"}
 					</p>
 				</div>
 			</div>

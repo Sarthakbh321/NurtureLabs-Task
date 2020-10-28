@@ -10,6 +10,10 @@
 	color: limegreen;
 }
 
+.orange {
+	color: #f18354;
+}
+
 input[type=text] {
 	height: 30px;
 	padding: 5px 10px;
@@ -21,4 +25,10 @@ input[type=text] {
 
 .MuiOutlinedInput-notchedOutline {
 	border-color: #e7e9ef !important;
+}
+
+.total-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
